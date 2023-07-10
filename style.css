@@ -201,3 +201,116 @@ nav{
 .about-h{
 
 }
+
+/* what I do section */
+
+.whatIdo{
+     display: flex;
+     width: 909px;
+     flex-direction: column;
+     margin-top: 50px;
+
+}
+.what-sec{
+
+     margin-left: 350px;
+
+}
+.para-3{
+     color: #757575;
+     text-align: center;
+     font-size: 13px;
+     font-weight: 400;
+     line-height: 20px;
+     margin-top: 15px;
+}
+
+.status{
+     display: flex;
+     justify-content: space-around;
+     margin-left: 450px;
+     gap: 24px;
+     margin-top: 50px;
+
+}
+
+.config{
+     width: 187px;
+     height: 260px;
+     border-radius: 5px;
+     background: #FFF;
+     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+     padding: 8px;
+
+}
+.image {
+     width: 30px;
+     height: 30px;
+     padding-left: 2px;
+     margin-left: 10px;
+ }
+
+
+
+
+.heading-4{
+     color:#181818;
+     font-size: 20px; 
+     font-weight: 700;
+     font-size: 15px;
+     margin-left: 11px;
+}
+    
+
+
+.para-2{
+     display: flex;
+     width: 170px;
+     flex-direction: column;
+     color: var(--dark-03, #757575);
+     font-size: 14px;
+     font-weight: 400;
+     line-height: 24px;
+     margin-top: 4px;
+     margin-left: 10px;
+    
+
+}
+
+/* form section start */
+
+.form-control{
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+     margin-top: 340px;
+     width: 900px;
+     height: 400px;
+     margin-left: 250px;
+     background: #FFF8F3;
+     padding: 20px;
+}
+
+
+
+.input-name{
+     border-radius: 5px;
+     background: var(--white-color, #FFF);
+     padding: 8px;
+     margin-top: 5px;
+
+}
+
+.input-email{
+     border-radius: 5px;
+     background: var(--white-color, #FFF);
+     padding: 8px;
+
+}
+
+.textarea{
+     border-radius: 5px;
+     background: var(--white-color, #FFF);
+     padding: 8px;
+
+}
